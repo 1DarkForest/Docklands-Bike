@@ -1,0 +1,101 @@
+/*
+
+HERO SECTION
+
+*/
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: url("images/hero.webp");
+  background-position: center;
+}
+.hero .overlay {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(87, 0, 0, 0.5) 50%
+  );
+  width: inherit;
+  height: inherit;
+}
+
+.overlay header {
+  width: 100vw;
+  height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: transparent;
+}
+.overlay header i {
+  color: white;
+  font-size: 40px;
+}
+.overlay header nav {
+  width: fit-content;
+  height: inherit;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  background: transparent;
+}
+.overlay header nav a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.overlay header *:not(i:first-of-type):hover {
+  color: darkred;
+}
+.overlay header * {
+  cursor: pointer;
+}
+.overlay * {
+  color: white !important;
+}
+.left-title-bar-content h3 {
+  font-size: 25px;
+  font-style: italic;
+}
+.left-title-bar-content h1 {
+  font-size: 45px;
+}
+.left-title-bar-content .hero-btn {
+  background: darkred;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 20%;
+}
+.left-title-bar-content p{
+    font-style: italic;
+}
+
+.left-title-bar-content .hero-btn a {
+    font-size: 20px;
+  text-decoration: none;
+}
+.left-title-bar-content ul {
+    list-style-type: none;
+}
+.left-title-bar {
+  max-width: 50%;
+  padding-inline: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+.left-title-bar-content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+/*
+
+NEW-ARRIVAL-SECTION
+
+*/
+
