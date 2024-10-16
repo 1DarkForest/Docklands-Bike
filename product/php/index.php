@@ -47,7 +47,9 @@ crossorigin = 'anonymous' referrerpolicy = 'no-referrer' />
 <p>CONTACT US</p>
 </a>
 </nav>
-<i class = 'fa-solid fa-cart-shopping'></i>
+<a href="../../cart/php/index.php">
+    <i class = 'fa-solid fa-cart-shopping'></i>
+</a>
 </section>
 
 <!-- PRODUCT LIST - SECTION -->
@@ -56,10 +58,7 @@ crossorigin = 'anonymous' referrerpolicy = 'no-referrer' />
 <div class = 'new-arrival-content'>
 
 <?php
-// Loop through the bicycles data and display each one
-// Loop through the bicycles data and display each one
 while ( $row = mysqli_fetch_assoc( $result ) ) {
-    // Use the brandCode as a query parameter for the detailed page
     $detailPageUrl = '../../detail/php/index.php?brandCode=' . urlencode( $row[ 'brandCode' ] );
     ?>
     <article>

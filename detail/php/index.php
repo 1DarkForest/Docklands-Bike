@@ -84,7 +84,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 <p>CONTACT US</p>
             </a>
         </nav>
+<a href = '../../cart/php/index.php'>
         <i class='fa-solid fa-cart-shopping'></i>
+</a>
     </section>
 
     <!-- BICYCLE DETAILS SECTION -->

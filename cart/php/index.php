@@ -57,7 +57,9 @@ crossorigin = 'anonymous' referrerpolicy = 'no-referrer' />
 <p>CONTACT US</p>
 </a>
 </nav>
+<a href = '../../cart/php/index.php'>
 <i class = 'fa-solid fa-cart-shopping'></i>
+</a>
 </section>
 <section class = 'cart-section'>
 <header>
